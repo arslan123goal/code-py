@@ -1,0 +1,16 @@
+# Escape Sequence
+
+print("C:\'narry")
+print("C:\"narry")
+print("C:\\narry")
+# \" it inserts " in ouput statement
+# \\ it inserts a back slah at that point 
+
+print("Arslan is \n good boy ") #comment after statement
+# \n adds a new line # code after \n will be printed in next line
+
+print("Arslan is a\t good boy")
+# \t gives a tab between code
+
+print("Arslan is a\bgood boy")
+# \b it inserts a backspace in print statement at that point
