@@ -1,0 +1,42 @@
+#variables and Data type
+
+var1="Arslan"   # automatically stored as string data type
+var2=12         # int data type
+var3=6.9        # float data type
+print(var1)
+print(var2)
+print(var3)
+
+# get the data type
+print(type(var1))
+print(type(var2))
+print(type(var3))
+
+#data type can change even after once declaration
+x=4
+x="str"
+print(x)
+
+#string variables can be declared either by using single or double quotes
+x="Shafqat"
+y='Waseem'
+print(x)
+print(y)
+
+#case sensitive
+a=34
+A=12.37
+print(a)
+print(A)
+
+# Assign one value to two variables
+a=50
+b=a
+print(a)
+print(b)
+
+# multiple values to multiple variables
+a,b,c=1,2,3
+print(a)
+print(b)
+print(c)
