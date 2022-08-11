@@ -1,0 +1,36 @@
+# Type casting 
+
+var1="45" # it is a string data type
+var2="33"
+print(var1+var2)
+
+#typecast from string to int
+print(int(var1)+int(var2))
+
+# string-->int-->string
+print(10*str(int(var1)+int(var2)))
+
+#printing hello word multiple times
+print(10*"hello word\n")
+
+# implicit type casting 
+a=10
+print(a)
+
+b=4.5
+print(b)
+# print(a+b)
+
+# explicit type casting 
+x=10.6
+print(x)
+
+print(int(x))
+print(str(x))
+
+# Add two numbers 
+print("Enter first number")
+n1=input()
+print("Enter second number")
+n2=input()
+print("sum of these two numbers is" ,int(n1) + int(n2))
