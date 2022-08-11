@@ -1,0 +1,23 @@
+# Comments in Python
+
+"""
+This is a
+Multiline Comment
+
+"""
+# This is a single line comment
+
+print("Talk is cheep ")
+print("show me the code")
+
+"""
+ The output of above two lines will be in two lines, to take output in one line use (end="")
+end("") the code between these two commas will also be printed 
+end(" ") if there is a backspace between two commas it will print a backspace
+"""
+
+print("keep it private to keep it permanent", end=" ")    # end=""  # is used to not add a new line
+print("next line")
+
+# we can do this to take output in one line
+print("Keep Struggling ","it makes success possible")
