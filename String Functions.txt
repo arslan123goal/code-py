@@ -1,0 +1,25 @@
+# String Functions
+mystr = "arslan is a Good Boy"
+print(type(mystr))
+
+print(mystr.isalnum())  # The string is not alpha numberic b/c it contains spaces 
+
+print(mystr.isalpha())  # The string is not alpha 
+
+print(mystr.endswith("boy"))   # true , string ends with a word ("boy")
+
+print(mystr.count("o"))   # counts a word in a string
+
+print(mystr.capitalize()) # it capitalized first letter of String
+
+print(mystr.find("good"))  # find a word in string
+
+print(mystr.upper())  # string will converted in upper case letters
+
+print(mystr.swapcase()) # Lower cases beomes upper cases and vice versa 
+
+print(mystr.title()) # converts first character of each word to upper case
+
+print(mystr.lower())  # string will converted in lower case letters
+
+print(mystr.replace("Good","Handsome")) # one value is replaced with another value
