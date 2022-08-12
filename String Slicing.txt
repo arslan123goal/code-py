@@ -1,0 +1,27 @@
+# String Slicing 
+mystr = "Shafqat is a good boy"
+print(mystr)
+print(mystr[4]) # it prints 4th digit in the string
+print(mystr[0:8]) # it prints from 0-->8th digit , zero including , eight excluding
+print(mystr[:8])  # same ouput as the above linne
+
+print(mystr[0:21]) #it prints a complere string
+print(mystr[0:])   # it also prints complete string
+print(mystr[:])    #         //
+print(mystr[::])   #         //
+print(mystr[0:21:1]) # print(mystr[:21:1])  # print(mystr[::1])
+print(mystr[0:21:2])  # it will skip one character
+print(mystr[0:21:3])  
+print(len(mystr)) #it prints length of string
+
+# print(mystr[38]) # it gives an error b/c there is no element at 38th index
+print(mystr[0:38]) # it gives no error and prints a string of length 21
+
+print(mystr[0:8:2]) # it skips one character
+
+print(mystr[-1])  # it starts counting string from last
+print(mystr[-4:])
+print(mystr[-4:-2])
+print(mystr[17:19])
+print(mystr[::-1])  # it will print reversed string 
+print(mystr[::-2])  # it will reverse the string and skip one character
