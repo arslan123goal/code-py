@@ -1,0 +1,32 @@
+# Functions of list
+numbers = [2,9,7,11,3]
+
+# print(numbers)
+# print(len(numbers))    # print length of list
+# numbers.sort()       # sort the list
+# numbers.reverse()    # reverse the list
+# print(numbers)
+
+# print(max(numbers))  # largest number in the list 
+# print(min(numbers))  # smallest number in the list
+
+# numbers.append(57)   # insert number from the end of the list
+# print(numbers)
+
+# numbers.insert(1,38)
+# print(numbers)      # add any number(38) at any integer index(1)
+
+# numbers.remove(11)
+# print(numbers)        # delete any integer(11) from a list
+
+# numbers.pop()
+# print(numbers)      # remove integer from the end of the list
+
+# numbers[1] = 87      # list in mutable
+# print(numbers)       # change value at any index[1] 
+
+# numbers.clear()    # remove all elements from the list
+# print(numbers)
+
+# x=numbers.count(2)   # print the number of times 2 appear in the list
+# print(x)
