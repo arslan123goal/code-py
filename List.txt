@@ -1,0 +1,14 @@
+# List   ---> mutable
+# index position starts starts from 0, not from 1
+grocery=["cylinder","battery","charger","phone","pen",99]
+
+# print(grocery)       # print the list
+
+# print(grocery[5])      # print character at 5th index
+# measage = "I bought " +grocery[4] +" of 100 rupees"  # use individual values from a list
+# print(measage)
+
+# print(grocery[:6])   # print the complete list 0-->5
+# print(grocery[::2])  # skip one character 
+# print(grocery[::-1]) # reverse the list
+# print(grocery[::-2])   # reverse list and skip one characetr
