@@ -1,0 +1,17 @@
+# dictionary is key value pairs 
+d1 = {}                          # empty Dictionary
+# print(type(d1))                # Print type of Dictionary
+
+d2 = {"Arslan":"Burger",
+"Shafqat":"Swarma",
+"Waseem":"Chicken",
+"Salman":{"B":"Paratha","L":"roti"}}
+
+print(d2["Arslan"])        # print value("Burger") of key("Arslan")
+
+# print(d2["Salman"]["B"])   # print key and its value, that is list within a list
+
+# d2["Zeeshan"] = "Junk Foods"      # Add value in the Dictionary at the end 
+
+# del d2["Salman"]                 # delete value from the Dictionary
+# print(d2)
