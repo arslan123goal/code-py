@@ -1,0 +1,29 @@
+# Functions of Dictionary
+d2 = {"Arslan":"Burger",
+ "Shafqat":"Swarma",
+ "Waseem":"Chicken",
+ "Salman":{"B":"Paratha","L":"roti"}}
+
+# d3 = d2
+# del d3["Arslan"]    # delete key value("Arslan") from both d3 and d2
+# print(d2)          
+
+# d3=d2.copy()
+# del d3["Arslan"]    # delete key value("Arslan") only from d3
+# print(d2)
+# print(d3)
+
+# print(d2.get("Arslan"))    # print value("Burger") of key("Arslan")
+
+# d2.update({"Ali":"Toffee"})  # Add value in the Dictionary at the end 
+# print(d2)
+
+# print(d2.keys())     # print all keys of dictionary
+# print(d2.items())    # print Dictionary
+
+# print(len(d2))      # print length of dictionary
+
+# d2.pop("Waseem")    # delete key value pair from dictionary
+# print(d2)
+
+# print("I ate "+ d2["Arslan"] +" yesterday")  # accessing values in a dictionary
