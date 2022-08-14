@@ -1,0 +1,24 @@
+# Sets
+s = set()
+# print(type(s))
+
+s_from_list = set([1,2,3,4])   # list within a set
+
+# print(s_from_list)
+# print(type(s_from_list))
+
+s.add(1)      # add value to empty set  
+s.add(2)
+
+# s1 = s.union({1,2,3})
+# s1 = s.intersection({1,2,3})
+
+# print(s,s1)
+
+# print(len(s))     # length of set
+# print(max(s1))    # largest number in set
+# print(min(s1))    # smallest number in set
+# s.remove(2)       # remove value from set
+
+s2 = {4,5}
+print(s.isdisjoint(s2))
