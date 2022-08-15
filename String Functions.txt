@@ -12,7 +12,7 @@ print(mystr.count("o"))   # counts a word in a string
 
 print(mystr.capitalize()) # it capitalized first letter of String
 
-print(mystr.find("good"))  # find a word in string
+print(mystr.find("Good"))  # find a word in string
 
 print(mystr.upper())  # string will converted in upper case letters
 
