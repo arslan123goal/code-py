@@ -2,8 +2,8 @@
 Tuple1 = (1,2,3)
 # print(Tuple1)
 
-# tp[1] = 32    # it gives an error b/c tuple is  immutable 
-# print(tp)     # in tuple we can't change values as in list
+# Tuple1[1] = 32    # it gives an error b/c tuple is  immutable 
+# print(Tuple1)     # in tuple we can't change values as in list
 
 tuple2 = (1,)      # put comma after 1 digit of tuple
 # print(tuple2) 
