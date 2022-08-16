@@ -1,0 +1,15 @@
+# while loop   --> execute a specified code block repeatedly
+i = 0
+while i < 8:
+    print(i)       # print i as long as i is less than 10
+    i = i+1        # increment of 1 in i 
+else:
+  print("i is no longer less than 8")
+
+# --> while loop in list
+# pets = ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+# print(pets)
+# while "cat" in pets:
+#  pets.remove('cat')
+ 
+# print(pets)
