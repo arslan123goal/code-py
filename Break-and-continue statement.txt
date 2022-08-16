@@ -1,0 +1,50 @@
+# Break and Continue statements
+# --> break statement code
+# for i in range(10):
+#     if i > 3:
+#         break       # this will break and end for loop 
+#     print(i)
+
+# --> break statement code
+# str = "Python"
+# for i in str:
+#     if i == "o":
+#         break
+#     print(i)
+
+# --> break statement code
+# i = 0
+# while (True):
+#     print("The value of i is: ",i)
+#     i=i+1
+#     if i==5:
+#         print("Breaking the loop")
+#         break
+
+# --> continue statement code
+# for i in range(10):
+#     if i == 5:
+#         continue     # this will only not print 5 
+#     print(i)
+
+
+# i = 0
+# while(True):
+#     i = i+1
+#     if i==5:
+#         continue
+#     if i>10:
+#         break
+#     print("The value of i is: ",i)
+
+# --> take input from user and apply break and continue statement
+while True:
+    print("Enter a number")
+    n = int(input())
+    if n > 100:
+        print("Entered number is greater than 100")
+        break
+    else:
+        print("Try again")
+        continue
+    
