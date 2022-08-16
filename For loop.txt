@@ -1,0 +1,57 @@
+# For loops
+list = [1,2,3,4,5,]
+# for num in list:
+    # print(num)
+
+# for loop in list
+list1  = [["Arslan",2],["Waseem",3],["Salman",4],["Shafqat",5]]
+
+# for item , lolipop in list1:
+    # print(item, "ate ", lolipop, "lolipops")
+
+dict = dict(list1)    # --> type cast list into dictionary
+# for item in list1:  # print items in list
+    # print(item)
+
+# print(dict.keys())  # print only keys in dictionary
+
+# --> for loop in dictionary
+# print(dict)
+# for items , lolipop in dict.items():
+    # print(items ,"have",lolipop,"lolipops" )
+
+# --> for loop in a string
+
+# for x in "hard work":
+    # print(x)
+
+# --> if statement in for loop
+
+# for x in list:
+    # if x ==3:
+        # print(x)
+
+# --> range function
+# for x in range(6):         # print counting from 0 to 5 
+    # print(x)
+
+# for x in range(3,8):         # print counting from 3 to 7
+    # print(x)
+
+# for x in range(4,20,3):       #  print counting from 4 to 20 skipping 2 characters
+    # print(x)
+
+# --> else in for loop
+
+# for x in range(10):
+#     print(x)
+# else:
+#     print("Finished counting")
+
+# --> nested loop
+# a = ["Arslan"]
+# b = ["is good","is great"]
+
+# for x in a:
+    # for y in b:
+        # print(x/,y)
