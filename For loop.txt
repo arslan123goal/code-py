@@ -54,4 +54,4 @@ dict = dict(list1)    # --> type cast list into dictionary
 
 # for x in a:
     # for y in b:
-        # print(x/,y)
+        # print(x,y)
