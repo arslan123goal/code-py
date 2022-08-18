@@ -1,0 +1,33 @@
+# Functions
+
+# a = 8
+# b = 9
+# c = sum((a,b)) # built in function
+# print(c)
+
+# def func1():    # this function will return no value
+#     print("function1 call")
+# print(func1())
+# func1()
+
+# def func_sum(a,b):   # this function will add two numbers and return no value
+#     print("The sum of two numbers are ",a+b)
+# func_sum(5,6)
+
+# def func2(a,b):     # add two numbers and return average value(average)
+#     average = (a+b)/2
+#     # print(average)
+#     return average
+
+# v = func2(5,7)
+# print(v)
+
+def func2(a,b):
+    """This function is valid for 2 numbers""" # doc string in function
+    average = (a+b)/2
+    # print(average)
+    return average
+
+# v = func2(5,7)
+# print(v)
+print(func2.__doc__)    # print doc string of function(func2)
