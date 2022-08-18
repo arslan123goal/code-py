@@ -31,3 +31,21 @@ def func2(a,b):
 # v = func2(5,7)
 # print(v)
 print(func2.__doc__)    # print doc string of function(func2)
+
+
+
+# --> returning a Dictionary
+# def person(first_name,last_name):
+#     dict1 = {"First name ":first_name,"Last name":last_name}    # create a dictionary
+#     return dict1          # return a dictionary
+
+# name = person("Muhammad","Arslan")   # store returned value in a variable(name)
+# print(name)
+
+# --> passing a list
+def name_list(names):
+    for name in names:             #print values using for loop
+        print("Welcome " +name)
+
+list1 = ["Arslan","Ali"]    # create list
+name_list(list1)
