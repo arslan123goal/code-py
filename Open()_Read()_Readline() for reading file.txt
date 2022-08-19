@@ -1,0 +1,26 @@
+# Open(), Read() and readline() 
+
+# x = open("Arslan.txt")         # open a file
+# x = open("Arslan.txt","r")     # open file in read mode (default mode)
+# x = open("Arslan.txt","rb")    # open file in read and binary mode
+# x = open("Arslan.txt","rt")    # open file in read and text mode (default mode)
+# text = x.read()
+# print(text)
+# x.close()
+
+# x = open("Arslan.txt","rt")
+# text = x.read(3)              # read only first 3 characters  0-->2
+# print(text)
+# text = x.read(3)              # read next 3 characters 3-->5
+# print(text)
+# x.close()
+
+
+# --> raedline() function
+x = open("Arslan.txt","rt")
+# print(x.readline(),end="")       # print only 1st line in the file
+# print(x.readline(),end="")       # print 2nd line in the file
+# print(x.readline(),end="")       # print 3rd line in the file
+
+# --> readlines function
+print(x.readlines())               # print content of file in a list 
