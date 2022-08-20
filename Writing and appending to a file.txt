@@ -1,0 +1,18 @@
+# write() and append()
+
+# x = open("quote.txt","w")          # "w"  it will open file in writing mode
+# x.write("I am learning Python")    # it will replace content of file with this line
+# x.close()
+
+# x = open("quote.txt","a")               # "a"  it will open file in append mode
+# x.write("I am learning programming\n")  # it will add this line and the present content will remain as well
+# x.write("I am learning Python\n")
+
+# a = x.write("I am learning Python\n")   
+# print(a)                                # it will print the number of added characters
+# x.close()
+
+x = open("quote.txt","r+")    # it will open file both in read and write mode
+print(x.read())               # read file
+x.write("\nThank you")        # write on file 
+x.close()
