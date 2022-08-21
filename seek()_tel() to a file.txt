@@ -1,0 +1,12 @@
+f = open("Arslan.txt")
+# print(f.tell())           # print the position of file pointer
+
+print(f.readline(),end="")
+# print(f.tell())
+
+f.seek(5)                   # it will reset the file pointer at a position which we will input as a argument(5) 
+
+print(f.readline(),end="")
+# print(f.tell())
+
+f.close()
