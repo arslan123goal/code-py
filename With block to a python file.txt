@@ -1,0 +1,7 @@
+# with block
+with open("Arslan.txt") as f:   # with block automatically closed this file
+    a = f.read()
+    print(a)
+
+x = open("Arslan.txt")          # this code will also be execute as the above code will closed automatically
+print(x.readlines())
