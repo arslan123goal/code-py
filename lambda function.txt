@@ -1,0 +1,22 @@
+# Lambda function
+
+
+# def add(a,b):      # --> simple function
+    # return a+b
+# print(add(3,2))
+
+
+# add = lambda x,y: x+y     # --> lambda function
+# print(add(3,2))
+
+
+# def func(n):          # --> lambda function within a function
+#     return lambda a : a*n
+# x = func(2)
+# print(x(2))
+
+
+# -->using lambda function with if-else
+
+# minimum = lambda x,y: x if(x<y) else y
+# print(minimum(35,76))
