@@ -1,0 +1,6 @@
+# fstring
+
+m = "Arslan"
+a = 20
+a = f"My name is {m} and my age is {a}"
+print(a)
