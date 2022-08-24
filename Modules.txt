@@ -1,0 +1,20 @@
+import random
+random_number = random.randint(1,5)    # print random number between 1 and 5
+# print(random_number)
+
+# rand = random.random() *100      
+# print(rand)
+
+# lst = ["code","programm","hack","guide"]
+# choice = random.choice(lst)      # print one element from list randomly
+# print(choice)
+
+import platform
+x = platform.system()   # prints the type the operating system
+print(x)
+
+x = dir(platform)      # identify names declared within a module
+print(x)
+
+import sys             
+print(sys.path)
