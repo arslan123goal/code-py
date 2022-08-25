@@ -1,0 +1,25 @@
+# Time Module
+
+import time
+
+initial = time.time()
+# print(initial)
+
+k=0
+while(k<5):
+    print("I am learning python")
+    k+=1
+    # time.sleep(1)                   # sleep function will delay output for 1 second
+
+print("while loop ran in", time.time()-initial,"seconds")
+
+initial2 = time.time()
+
+for x in range(5):
+    print("I am a beginner")
+print("for loop ran in", time.time()-initial2,"seconds")
+
+localtime = time.asctime(time.localtime(time.time()))   # print local time of pc
+# localtime = time.asctime()   # print local time of pc
+# localtime = time.ctime()     # print local time of pc
+print(localtime)
