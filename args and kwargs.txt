@@ -1,0 +1,22 @@
+# If you do not know how many arguments that will be passed into your function,
+#  add a * before the parameter name in the function definition.
+
+def funcargs(argu,*args,**kwargs):
+    print(argu)
+    # print(args[0])
+
+    for item in args:
+        print(item)
+   
+    print("\nStudents in a class")
+
+    for key, values in kwargs.items():
+        print(f"Student name is {key} and numbers are {values}")    # using f-string
+
+lst = ["code","program","hack","guide","cph guider"]      # List
+
+argument = "A normal argument passing to the function"    # variable
+
+dct = {"Arslan":"22","Shafqat":"21"}            # dictionary
+
+funcargs(argument,*lst,**dct)         # function call
