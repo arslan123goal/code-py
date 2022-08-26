@@ -1,0 +1,15 @@
+# Enumerate Function
+
+l1 = ["fee","stand","lanCard","mouse"]
+
+# --> simple function
+# i=1
+# for item in l1:
+#     if i%2 is not 0:
+#         print(f"Buy this {item}")
+#     i+=1
+
+# --> Enumerate Function
+for index, item in enumerate(l1):
+    if index%2==0:
+        print(f"Buy this {item}")
