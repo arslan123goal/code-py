@@ -1,0 +1,8 @@
+#  Join function
+
+lis = ["john","cena","roman","rings","Arshad","Ali"]
+# for item in lis:
+    # print(item,"and",end=" ")
+
+a = " and ".join(lis)
+print(a,"other champions")
