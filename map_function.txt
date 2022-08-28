@@ -1,0 +1,33 @@
+# --> map function
+
+# numberz = ["1","32","18"]
+# numberz = list(map(int,numberz))
+
+# for i in range(len(numberz)):
+#     numberz[i] = int(numberz[i])
+
+# numberz[2] = numberz[2]+1
+# print(numberz[2])
+
+# def sq(a):
+    # return a*a
+
+# num = [5,4,3,7,6,8]
+# square = list(map(sq,num))
+# square = list(map(lambda x : x*x ,num))
+# print(square)
+
+# def square(a):
+#     return a*a
+# def cube(a):
+#     return a*a*a
+# func = [square,cube]
+# for i in range(5):
+#     num = list(map(lambda x:x(i),func))
+#     print(num)
+
+# def func(a):
+#     return len(a)
+
+# x = list(map(func,('apple','banana')))
+# print(x)
