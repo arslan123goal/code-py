@@ -1,0 +1,15 @@
+# ---> filter function
+
+# list1 = [0,1,2,3,4,5,6,7,8,9]
+# def num_5(num):
+#     return num>5
+
+# greatre = list(filter(num_5,list1))
+# print(greatre)
+
+
+# def filterData(x):
+#     if x>5:
+#         return x
+# result = list(filter(filterData,(1,2,5,6)))
+# print(result)
