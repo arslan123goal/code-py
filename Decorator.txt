@@ -1,0 +1,16 @@
+# --> Decorators
+import time
+initial = time.time()
+def func(func1):
+    def func2():
+        print("Execute within func2")
+        func1()
+        print("Execute")
+    return func2
+@func
+
+def arslan():
+    print("hello")
+
+# arslan = fun(arslan)   #--> ln 8
+arslan()
