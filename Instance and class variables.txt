@@ -1,0 +1,22 @@
+class Student:
+    class_periods = 6
+    pass
+Ali = Student()
+Umar = Student()
+
+Ali.name = "Ali"
+Ali.subject = "BsCS"
+
+Umar.name = "Umar"
+Umar.subject = "BsCS"
+
+# print(Ali.name)
+
+print(Student.class_periods)
+Student.class_periods = 8       # increment in class variable
+print(Student.class_periods)
+# print(Student.__dict__)
+
+print(Ali.__dict__)
+Ali.class_periods = 7           # it will add a new variable in object and class variable remain same
+print(Ali.__dict__)
