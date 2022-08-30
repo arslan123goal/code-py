@@ -1,0 +1,14 @@
+class student:            # create a class
+    pass
+
+arslan = student          # create object of class
+shafqat = student
+
+arslan.name = "Arslan"    # add variable to object
+arslan.rn = 5586
+shafqat.section = "A"
+shafqat.subject = ["math","physics"]
+
+# print(arslan,shafqat)
+
+print(arslan.name,arslan.rn,shafqat.section,shafqat.subject)
