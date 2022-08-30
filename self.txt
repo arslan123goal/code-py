@@ -1,0 +1,17 @@
+class Student:
+    class_periods = 6
+
+    def detail(self):
+        return f"Name of student is {self.name} and faculty is {self.subject}"
+
+Ali = Student()
+Umar = Student()
+
+Ali.name = "Ali"
+Ali.subject = "BsCS"
+
+Umar.name = "Umar"
+Umar.subject = "BsCS"
+
+print(Ali.detail())
+print(Umar.detail())
