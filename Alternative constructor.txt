@@ -1,0 +1,30 @@
+class Employee:
+    class_variable = 8
+
+    def __init__(self,name,salary,department):
+        self.name = name
+        self.salary = salary
+        self.department = department
+
+    def print(self):
+        return f"Name is {self.name}. Salary is {self.salary}. and dept is {self.department}"
+
+    # @classmethod
+    def change_variable(cls,change_vari):
+        cls.class_variable = change_vari
+
+    @classmethod
+    def from_dash(cls,string):
+        # obj = string.split("-")
+        # print(obj)
+        # return cls( obj[0],obj[1],obj[2])
+        return cls(*string.split("-"))
+
+Arslan = Employee("Arslan",20000,"HR")
+Shafqat = Employee.from_dash("Shafqat-20000-IT")
+
+# Arslan.change_variable(34)
+# print(Arslan.class_variable)
+
+print(Shafqat.salary)
+# print(Shafqat.print())
