@@ -1,0 +1,20 @@
+# static method
+class Employee:
+    @staticmethod
+    def show(string):
+        print("This is good "+ string)
+
+Arslan = Employee()    #create object of class Employee
+
+Arslan.show("employee")   # calling static method using object
+Employee.show("worker")   # calling static method
+
+
+# class Multi:
+#     @staticmethod
+#     def function(x):
+#         print("Static method",x*x)
+# object = Multi()
+
+# object.function(5)    
+# Multi.function(10)
