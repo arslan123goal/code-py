@@ -1,0 +1,81 @@
+# Single Inheritance
+class Person:
+    def __init__(self,first_name,last_name):   # constructor
+        self.first_name = first_name
+        self.last_name = last_name
+
+    def print(self):
+        print(f"My first name is {self.first_name} and last name is {self.last_name}")
+
+class Student(Person): # create a child class
+    pass
+
+Ali = Student(f"Muhammad","Arslan")
+Ali.print()
+
+
+# Add __init__() Super() function
+class Person:
+    def __init__(self,first_name,last_name):
+        self.first_name = first_name
+        self.last_name = last_name
+    def print(self):
+        print(f"My first name is {self.first_name} and last name is {self.last_name}")
+
+class Student(Person):   # add __init__() function 
+    def __init__(self,first_name,last_name):
+        # Person.__init__(self,first_name,last_name)    # call parent's __init__() function to keep inheritance
+        super().__init__(first_name,last_name)       # use super() function instead calling parents's __init__() function
+
+Ali = Student(f"Muhammad","Arslan")
+Ali.print()
+
+# Add method
+class Person:
+    def __init__(self,first_name,last_name):
+        self.first_name = first_name
+        self.last_name = last_name
+
+    def print(self):
+        print(f"My first name is {self.first_name} and last name is {self.last_name}")
+
+class Student(Person):
+    def __init__(self,first_name,last_name,year):
+        # Person.__init__(self,first_name,last_name)
+        super().__init__(first_name,last_name)
+        self.year =  year
+
+    def greet(self):                # add method 
+        print(f"Welcome {self.first_name} {self.last_name} to the study year of {self.year}")
+
+Ali = Student(f"Muhammad","Arslan",2022)
+Ali.greet()
+# Ali.print()
+
+
+class Employee:
+    class_variable = 8
+
+    def __init__(self,name,salary,department):
+        self.name = name
+        self.salary = salary
+        self.department = department
+
+    def print(self):
+        return f"Emplolyee name is {self.name}. Salary is {self.salary}. and dept is {self.department}"
+
+
+class Programmer(Employee):
+    def __init__(self, name, salary, department,languages):
+            self.name = name
+            self.salary = salary
+            self.department = department
+            self.languages = languages
+
+    def printprog(self):
+        return f"Programmer's name is {self.name}. Salary is {self.salary}. dept is {self.department}. and the languages are {self.languages}"
+    
+Arslan = Employee("Arslan",20000,"HR")
+Shafqat = Programmer("Shafqat",2000,"IT",["HTML","CSS","Java"])
+print(Shafqat.printprog())
+# print(Shafqat.print())
