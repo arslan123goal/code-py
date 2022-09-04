@@ -1,0 +1,77 @@
+class Employee:
+    def name(self,name):
+        self.name = name
+        print("Employee name is ",self.name)
+
+class Salary:
+    def salary(self,salary):
+        self.salary = salary
+        print("salary ",self.salary)
+
+class Job(Employee,Salary):
+    def job(self,job):
+        self.job = job
+        print("Job is ",self.job)
+
+Ali = Job()
+Ali.name("Ali")
+Ali.salary(18000)
+Ali.job("Engineer")
+
+
+
+
+class cal1:
+    def add(self,a,b):
+        return a+b
+class cal2:
+    def multiply(self,a,b):
+        return a*b
+class cal3(cal1,cal2):
+    def divide(self,a,b):
+        return a/b
+
+obj = cal3()
+print(obj.add(5,5))
+print(obj.multiply(5,5))
+print(obj.divide(5,5))
+
+
+
+class Person:
+    variable = 5
+    def __init__(self,first_name,last_name):
+        self.first_name = first_name
+        self.last_name = last_name
+
+    def print(self):
+        print(f"My first name is {self.first_name} and last name is {self.last_name}")
+
+class Player:
+    variable = 10
+    no_of_games = 4
+    def __init__(self,name,game):
+        self.name = name
+        self.name = game
+
+    def detail(self):
+        print(f"Player name is {self.name} and he plays {self.name}")
+
+# class Programmer(Player,Person):
+class Programmer(Person,Player):
+    # variable = 15
+    HLL = "C++"
+    def show(self):
+        print(self.HLL)
+
+Arslan = Person("Muhammad","Arslan")  # object of 1st base class
+# Arslan.print()
+
+Shafqat = Player("Shafqat Hussain","hockey and cricket")  # object of 2nd base class
+# Shafqat.detail()
+
+Ali = Programmer("Muhammad","Ali")   # object of 3rd base class
+# Ali.print()
+# Ali.detail()           # this will show an error for line 22 but not for line 21
+# Ali.show()
+print(Ali.variable)
