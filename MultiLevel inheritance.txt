@@ -1,0 +1,33 @@
+
+class Father:
+    Eye_color = 'brown'
+class Son(Father):
+    Height = 'tall'
+class Grandson(Son):
+    IQ = 'intelligent'
+
+ALi = Father()
+Usman = Son()
+Umar = Grandson()
+
+print(f"My eye's color is {Umar.Eye_color}. I am very {Umar.Height} and {Umar.IQ}")
+
+
+class Eletronic_device:
+    age = 5
+    def show(self):
+        print(f" and age of this device is {self.age} years")
+class Pocket_gadget:
+    size = 5
+    def detail(self):
+        print(f"its size is {self.size} inches so you can easily put it into your pocket")
+class Phone(Eletronic_device,Pocket_gadget):
+    price = 20000
+    def print(self):
+        print(f"Price of my phone is {self.price}",end=" ")
+
+Mobile = Phone()
+
+Mobile.print()
+Mobile.show()
+Mobile.detail()
