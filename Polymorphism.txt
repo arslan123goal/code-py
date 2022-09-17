@@ -1,0 +1,14 @@
+# Polymorphism --> same name different work 
+
+# len() function for a string
+print(len("hello"))
+
+# len() function for a list
+print(len([10,20,30]))
+
+# Another program to demonstrate polymorphism
+def add(a,b,c=0):
+    return a+b+c
+
+print(add(2,3))
+print(add(2,3,5))
