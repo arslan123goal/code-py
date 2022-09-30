@@ -1,0 +1,26 @@
+class Employee:
+    no_of_leaves = 8
+
+    def __init__(self,Ename,Esalary,Eid):
+        self.name = Ename
+        self.salary = Esalary
+        self.id = Eid
+    def show(self):
+        return f"Employee name is {self.name}. Salary is {self.salary} and id is {self.id}"
+    def __add__ (self,other):
+        return self.salary + other.salary
+
+    def __repr__(self):
+        # return self.show()
+        return f"Employee ('{self.name}',{self.salary},'{self.id}')"
+    
+    def __str__(self):
+        return f"Employee name is {self.name}. Salary is {self.salary} and id is {self.id}"
+
+Emp1 = Employee("Arslan",200000,1234)
+# Emp2 = Employee("Shafqat",20000,12345)
+# print(Emp1+Emp2)
+print(Emp1)
+# print(repr(Emp1))
+# print(str(Emp1))
+# Emp.show()
