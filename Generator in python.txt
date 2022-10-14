@@ -1,0 +1,27 @@
+def gen(n):
+    for i in range(n):
+        yield i
+g = gen(3)
+# print(g)
+# print(g.__next__())
+# print(g.__next__())
+# print(g.__next__())
+
+# for i in g:
+#     print(i)
+
+A = "Arslan"
+iterr = iter(A)
+print(iterr.__next__())
+print(iterr.__next__())
+print(iterr.__next__())
+print(iterr.__next__())
+print(iterr.__next__())
+print(iterr.__next__())
+
+print(iter(A))
+
+# print(A[0])
+
+# for item in A:
+#     print(item ,end="")
