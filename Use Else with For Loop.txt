@@ -1,0 +1,14 @@
+lunch = ["apple","banana","graps","pomegranate","murabba"]
+for item in lunch:
+    # print(item)
+    # break                 #else statement  will not show in output b/c of break statement
+
+    # if item == "paratha":  #else statement  will show in output b/c break statement is not executed
+
+    if item == "apple":
+        print(item)
+        break              #else statement will not show in output b/c of break statement
+
+else:
+    # print("here: for loop is ended")
+    print("your item is not found")
